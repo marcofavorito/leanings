@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/linux,vim,vagrant
-# Edit at https://www.toptal.com/developers/gitignore?templates=linux,vim,vagrant
+# Created by https://www.toptal.com/developers/gitignore/api/linux,vim,vagrant,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,vim,vagrant,visualstudiocode
 
 ### Linux ###
 *~
@@ -47,5 +47,17 @@ tags
 # Persistent undo
 [._]*.un~
 
-# End of https://www.toptal.com/developers/gitignore/api/linux,vim,vagrant
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.toptal.com/developers/gitignore/api/linux,vim,vagrant,visualstudiocode
 
