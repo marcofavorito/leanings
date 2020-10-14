@@ -12,6 +12,6 @@ leanproject new
 leanproject add/install
 leanpkg upgrade
 leanproject build
-leanproject --make path-to-src
+lean --make path-to-src
 ```
 
