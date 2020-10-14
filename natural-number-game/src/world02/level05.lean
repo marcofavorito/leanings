@@ -7,15 +7,18 @@ import world02.level03 -- hide
 namespace mynat -- hide
 
 
-lemma add_comm (a b : mynat) : a + b = b + a :=
+theorem succ_eq_add_one (n : mynat) : succ n = n + 1 :=
 begin [nat_num_game]
-  induction b with d hd,
-  rw zero_add,
+  induction n with d hd,
+  rw one_eq_succ_zero,
+  rw add_succ,
   rw add_zero,
   refl,
+  rw one_eq_succ_zero,
   rw add_succ,
-  rw succ_add,
   rw hd,
+  rw one_eq_succ_zero,
+  rw add_zero,
   refl,
 end
 
