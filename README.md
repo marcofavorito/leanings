@@ -15,3 +15,7 @@ leanproject build
 lean --make path-to-src
 ```
 
+## Links
+
+https://leanprover-community.github.io/learn.html
+
